@@ -51,7 +51,7 @@ public class Class4HW {
             BrianDozier.playGame();
             System.out.println("His new batting average is " + BrianDozier.getBattingAverage());
         }else if (choice.equals("p")){
-            System.out.println("Paul Molitor has managed a game!");
+            System.out.println("Paul Molitor has won a game!");
             PaulMolitor.playGame();
             System.out.println("His new Win/Loss Percentage is " +
                     PaulMolitor.getWinLoss());
