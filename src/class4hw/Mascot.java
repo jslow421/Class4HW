@@ -20,6 +20,7 @@ public class Mascot extends Player{
         this.hasHat = hasHat;
     }
     
+    @Override
     public void playGame(){
         hasHat = false;
     }
