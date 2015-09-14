@@ -40,7 +40,7 @@ public class Manager implements Personnel{
     
     @Override
     public void playGame(){
-        winLoss += .01;
+        winLoss += .02;
     }
     
 }
