@@ -10,6 +10,6 @@ package class4hw;
  * @author jslowik
  */
 public interface Personnel {
-    public String playGame();
+    public void playGame();
     
 }

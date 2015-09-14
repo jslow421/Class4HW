@@ -12,7 +12,15 @@ package class4hw;
 public class Manager implements Personnel{
     private int number;
     private boolean usesSabermetrics;
-    private String gameInfo;
+    private double winLoss;
+
+    public double getWinLoss() {
+        return winLoss;
+    }
+
+    public void setWinLoss(double winLoss) {
+        this.winLoss = winLoss;
+    }
 
     public int getNumber() {
         return number;
@@ -31,9 +39,8 @@ public class Manager implements Personnel{
     }
     
     @Override
-    public String playGame(){
-        gameInfo = "Manager number" + number;
-        return gameInfo;
+    public void playGame(){
+        winLoss += .01;
     }
     
 }

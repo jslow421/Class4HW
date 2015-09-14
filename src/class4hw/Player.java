@@ -14,7 +14,6 @@ public class Player implements Personnel {
     private String batHand;
     private String throwHand;
     private double battingAverage;
-    private String gameInfo;
 
     public int getNumber() {
         return number;
@@ -49,9 +48,8 @@ public class Player implements Personnel {
     }
     
     @Override
-     public String playGame(){
-        gameInfo = "Test";
-        return gameInfo;
+     public void playGame(){
+        
     }
     
     

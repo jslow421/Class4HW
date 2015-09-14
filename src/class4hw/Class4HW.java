@@ -15,6 +15,22 @@ public class Class4HW {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
+        Manager PaulMolitor = new Manager();
+        Player BrianDozier = new Player();
+        
+        BrianDozier.setNumber(2);
+        BrianDozier.setBatHand("right");
+        BrianDozier.setThrowHand("right");
+        BrianDozier.setBattingAverage(.300);
+        
+        
+        System.out.println(BrianDozier.getNumber());
+        System.out.println(BrianDozier.getBatHand());
+        System.out.println(BrianDozier.getThrowHand());
+        System.out.println(BrianDozier.getBattingAverage());
+        
+        
+        PaulMolitor.playGame();
         
     }
     
