@@ -49,7 +49,7 @@ public class Player implements Personnel {
     
     @Override
      public void playGame(){
-        
+        battingAverage += .010;
     }
     
     
